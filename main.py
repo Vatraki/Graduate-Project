@@ -69,8 +69,6 @@ if __name__ == '__main__':
         timeframe=timeframe,
         number_of_candles=500)
 
-    level = mt5_lib.get_resistance_support2(df)
-    mt5_lib.plot_all_resistance_support(level, df)
     df = mt5_lib.apply_technical(df)
     #df = df[df['distancebetweenpivot (t-0)'] < 0.5]
     train_set, test_set = mt5_lib.Split_Train_Test(df, 0.2)
