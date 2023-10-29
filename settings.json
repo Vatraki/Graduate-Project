@@ -1,0 +1,11 @@
+{
+  "mt5": {
+        "username": "1433675",
+        "password": "l0dxqmeb",
+        "investor": "joecaw1x",
+        "server"  : "AMPGlobalEU-Demo",
+        "mt5_pathway": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+        "symbols": "@ENQ",
+        "timeframe": "M5"
+          }
+}
